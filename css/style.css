@@ -15,6 +15,7 @@
 
 body{
     font-family: opens;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -86,8 +87,8 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 28px;
     width: 238px;
     height: 52px;
-    background-color: #54c472;
-    border-color: #54c472;
+    background-color: #99CA3E;
+    border-color: #99CA3E;
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -111,7 +112,7 @@ h1,h2,h3,h4,h5,h6{
     width: 156px;
     height: 159px;
     padding: 50px;
-    background-color: #54c472;
+    background-color: #99CA3E;
     border-top-left-radius: 50px;
     text-align: center;
     margin: auto;
@@ -186,8 +187,8 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 28px;
     width: 238px;
     height: 52px;
-    background-color: #54c472;
-    border-color: #54c472;
+    background-color: #99CA3E;
+    border-color: #99CA3E;
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -296,7 +297,7 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     height: 52px;
     background-color: #FFF;
-    border: 2px solid #54c472;
+    border: 2px solid #99CA3E;
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -304,7 +305,7 @@ h1,h2,h3,h4,h5,h6{
     line-height: 2.64;
     letter-spacing: 3.4px;
     text-align: center;
-    color: #54c472;
+    color: #99CA3E;
 }
 
 #blog .blog-card .btn-border-green{
@@ -368,4 +369,63 @@ footer p{
     font-size: 22px;
     color: #333;
     margin-left: 10px;
+}
+
+
+.btn-success:hover{
+    background: #89b735 !important;
+    border-color: #89b735 !important;
+}
+
+@media(max-width:600px){
+    .area-banner{
+        background-image: url(../images/bg-small.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .cont-port{
+        padding: 15px 15px 0px 15px !important;
+    }
+    
+    #portfolio .cont-port p{
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    
+    .more-text{
+        font-size: 13px;
+        color: #99CA3E;
+    }
+    
+    .area-header .bg-light{
+        float: none;
+    }
+    
+    .area-header .navbar-nav .nav-item{
+        margin-left: 0;
+    }
+    
+    .btn-success{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width:320px){
+    .area-banner{
+        background: transparent;
+    }
+    
+    .area-banner .title-banner{
+        width: 100%;
+        height: auto;
+    }
+    
+    .area-banner p{
+        width: 100%;
+        height: auto;
+    }
 }
