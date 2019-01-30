@@ -140,6 +140,10 @@ h1,h2,h3,h4,h5,h6{
     margin: auto;
 }
 
+#aboutus{
+    margin-top: -170px;
+}
+
 #portfolio {
     padding: 80px;
     padding-bottom: 130px;
